@@ -21,69 +21,33 @@ AGENTS.mdは以下の項目を必ず含むこと。
 
 **全体構造の階層**
 
-<details>
-<summary><strong>Repository Guidelines（ルート）</strong></summary>
-
-<details>
-<summary>1. 導入・前提セクション</summary>
-
-- overview（プロジェクト概要）
-- Purpose（プロジェクト概要含む）
-- ExecPlans / When to Use PLANS.md
-
-</details>
-
-<details>
-<summary>2. プロジェクト構造セクション</summary>
-
-- Project Structure & Module Organization
-- Dev environment tips（開発環境のヒント）
-
-</details>
-
-<details>
-<summary>3. 開発環境セットアップセクション</summary>
-
-- Setup Commands（セットアップコマンド）
-- Build, Test, and Development Commands
-
-</details>
-
-<details>
-<summary>4. 規約・ルールセクション</summary>
-
-- Repository Conventions
-- Coding Style & Naming Conventions & Linter
-- Task Policy (Very Important)
-
-</details>
-
-<details>
-<summary>5. 開発プロセスセクション</summary>
-
-- Testing Guidelines
-- Commit & Pull Request Guidelines（コミット＆プルリクエストの手順）
-- Verification
-
-</details>
-
-<details>
-<summary>6. リファレンスセクション</summary>
-
-- Files the Agent Should Read First
-
-</details>
-
-<details>
-<summary>7. 制約・禁止事項セクション</summary>
-
-- Don'ts
-
-</details>
-
-<details>
-<summary>8. その他設定</summary>
-
-- 応答言語設定
-
-</details>
+Repository Guidelines (ルート)
+├── 1. 導入・前提セクション
+│   ├── ExecPlans / When to Use PLANS.md
+│   └── Purpose（プロジェクト概要含む）
+│
+├── 2. プロジェクト構造セクション
+│   └── Project Structure & Module Organization
+│
+├── 3. 開発環境セットアップセクション
+│   ├── Setup Commands
+│   └── Build, Test, and Development Commands
+│
+├── 4. 規約・ルールセクション
+│   ├── Repository Conventions
+│   ├── Coding Style & Naming Conventions
+│   └── Task Policy (Very Important)
+│
+├── 5. 開発プロセスセクション
+│   ├── Testing Guidelines
+│   ├── Commit & Pull Request Guidelines
+│   └── Verification
+│
+├── 6. リファレンスセクション
+│   └── Files the Agent Should Read First
+│
+├── 7. 制約・禁止事項セクション
+│   └── Don'ts
+│
+└── 8. その他設定
+    └── 応答言語設定
