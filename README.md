@@ -79,3 +79,7 @@ pnpm ストアをプルーン（`pnpm store prune`）してください。
 **目的**: AI エージェントが迷わず、他の VibeCoding パッケージと一貫性を保ちながらコードを生成できるようにする。
 ドキュメントを更新することで、すべてのチームメンバーを支援します。
 
+## 参照すべきサイト
+https://cookbook.openai.com/articles/codex_exec_plans
+https://qiita.com/masakinihirota/items/8729facb86baa57116f7
+https://qiita.com/masakinihirota/items/62367ca7ab1766cbd012
